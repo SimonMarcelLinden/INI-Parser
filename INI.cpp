@@ -131,8 +131,6 @@ void INI::readINI(){
     std::string key;
     std::smatch matches;
 
-    this->filename = filename;
-
     file.open(filename, std::fstream::in | std::fstream::out | std::fstream::app);
 
     if (!file.is_open()) {
@@ -161,6 +159,7 @@ void INI::readINI(){
 
 /* Main functions */
 INI::INI(const std::string filename) {
+    this->filename = filename;
     readINI();
 }
 INI::~INI(){
