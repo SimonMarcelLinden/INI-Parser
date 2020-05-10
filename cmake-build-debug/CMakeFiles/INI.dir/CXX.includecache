@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Development/CLion/FSModLoader/INI/INI.cpp
+regex
+-
+INI.h
+C:/Development/CLion/FSModLoader/INI/INI.h
+
+C:/Development/CLion/FSModLoader/INI/INI.h
+iostream
+-
+fstream
+-
+string
+-
+regex
+-
+
