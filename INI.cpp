@@ -162,9 +162,7 @@ INI::INI(const std::string filename) {
     this->filename = filename;
     readINI();
 }
-INI::~INI(){
-    writeINI();
-}
+INI::~INI(){ }
 
 bool INI::sectionExists(const std::string& section){
     return exists(section);
@@ -182,4 +180,5 @@ std::string INI::getValue(const std::string& section, const std::string& key){
 
 void INI::writeValue(const std::string& section, const std::string& key, const std::string& value){
     ini[section][key] = value;
+    writeINI();
 };
