@@ -1,3 +1,0 @@
-C:\Development-Tools\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\INI.dir/objects.a
-C:\Development-Tools\MinGW\mingw64\bin\ar.exe cr CMakeFiles\INI.dir/objects.a @CMakeFiles\INI.dir\objects1.rsp
-C:\Development-Tools\MinGW\mingw64\bin\g++.exe  -g  -shared -o INI.dll -Wl,--out-implib,libINI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\INI.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\INI.dir\linklibs.rsp

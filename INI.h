@@ -3,7 +3,7 @@
  * @date 08.05.2020
  * @file INI.h
  */
-//#define INI_EXPORTS
+#define INI_EXPORTS
 
 #pragma once
 

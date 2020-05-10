@@ -1,3 +1,0 @@
-C:/Development/CLion/FSModLoader/INI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Development/CLion/FSModLoader/INI/cmake-build-debug/CMakeFiles/INI.dir
-C:/Development/CLion/FSModLoader/INI/cmake-build-debug/CMakeFiles/edit_cache.dir
