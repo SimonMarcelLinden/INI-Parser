@@ -1,7 +1,7 @@
 /*
  * @author Simon Marcel Linden
  * @date 08.05.2020
- * @file INI.h
+ * @file ini.h
  */
 #define INI_EXPORTS
 

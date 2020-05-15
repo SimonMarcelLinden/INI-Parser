@@ -1,11 +1,10 @@
 /*
  * @author Simon Marcel Linden
  * @date 08.05.2020
- * @file INI.cpp
+ * @file ini.cpp
  */
 
-#include <regex>
-#include "INI.h"
+#include "ini.h"
 
 /* Helper functions */
 void INI::trim(std::string &str) {
@@ -86,44 +85,6 @@ void INI::writeINI() {
         }
     }
     newFile.close();
-
-    /*
-    std::string temp;
-    std::string key;
-    std::smatch matches;
-
-    std::string left;
-    std::string right;
-
-    bool parentExists = false;
-
-    std::map<std::string, std::map<std::string, std::string> >::iterator parentIterator;
-    std::map<std::string, std::string>::iterator childIterator;
-
-    file.clear();                 // clear fail and eof bits
-    file.seekg(0, std::ios::beg);
-
-    while (file.good()) {
-        getline(file, temp);
-        if ( std::regex_search( temp, matches, std::regex("\\[.+\\]") ) ) {
-            trim(temp);
-            for (parentIterator = ini.begin(); parentIterator != ini.end(); parentIterator++) {
-                if ( parentIterator->first == temp ) {
-                    key = temp;
-                    continue;
-                }
-            }
-        }
-        if ( std::regex_search( temp, matches, std::regex(".+=.+") ) ) {
-            split(temp, left, right);
-
-            for (childIterator = ini[key].begin(); childIterator != ini[key].end(); childIterator++) {
-                if ( left == childIterator->first && right != childIterator->second ){
-                    file << childIterator->first << " = " << childIterator->second << "\n";
-                }
-            }
-        }
-    }*/
 }
 void INI::readINI(){
 

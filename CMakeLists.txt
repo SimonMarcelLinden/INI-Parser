@@ -6,5 +6,5 @@ project(INIParser VERSION ${PROJECT_VERSION} DESCRIPTION ${PROJECT_DESCRIPTION})
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(INIParser SHARED ini.cpp ini.h)
-set_target_properties(INIParser PROPERTIES PREFIX "")
+add_library(ini SHARED ini.cpp ini.h)
+set_target_properties(ini PROPERTIES PREFIX "")
